@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Version>1.0.0-alpha</Version>
+    <Authors>H.Shamekhi</Authors>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://bitbucket.dotin.ir/ANSOCCS/Zamin</RepositoryUrl>
+  </PropertyGroup>
+</Project>

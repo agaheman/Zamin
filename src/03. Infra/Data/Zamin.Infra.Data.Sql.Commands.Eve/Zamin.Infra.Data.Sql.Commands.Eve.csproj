@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Version>1.0.0-alpha</Version>
+    <Authors>H.Shamekhi</Authors>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://bitbucket.dotin.ir/ANSOCCS/Zamin</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Using Include="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\01. Utilities\Zamin.Utilities.Eve\Zamin.Utilities.Eve.csproj" />
+    <ProjectReference Include="..\..\..\01. Utilities\Zamin.Utilities\Zamin.Utilities.csproj" />
+    <ProjectReference Include="..\..\..\02. Core\Zamin.Core.Contracts.Eve\Zamin.Core.Contracts.Eve.csproj" />
+    <ProjectReference Include="..\..\..\02. Core\Zamin.Core.Domain.Eve\Zamin.Core.Domain.Eve.csproj" />
+  </ItemGroup>
+  
+</Project>
