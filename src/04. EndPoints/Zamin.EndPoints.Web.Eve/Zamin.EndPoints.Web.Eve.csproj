@@ -2,8 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>1.0.0-alpha</Version>
+    <Authors>H.Shamekhi</Authors>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageOutputPath>D:\NugetStorage\Zamin</PackageOutputPath>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://bitbucket.dotin.ir/scm/ansoccs/Zamin.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -6,8 +6,9 @@
     <Version>1.0.0-alpha</Version>
     <Authors>H.Shamekhi</Authors>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageOutputPath>D:\NugetStorage\Zamin</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <RepositoryUrl>https://bitbucket.dotin.ir/ANSOCCS/Zamin</RepositoryUrl>
+    <RepositoryUrl>https://bitbucket.dotin.ir/scm/ansoccs/Zamin.git</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
